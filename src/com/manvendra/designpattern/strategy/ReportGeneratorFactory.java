@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class ReportGeneratorFactory {
-    private Map<String,ReportGenerator> generators;
+    private final Map<String,ReportGenerator> generators;
 
     ReportGeneratorFactory(List<ReportGenerator> reportGenerators){
         generators = reportGenerators.stream().collect(Collectors.toMap(generator->generator.getClass().getSimpleName(), generator->generator));
