@@ -7,7 +7,7 @@ public class MissingNumber {
         System.out.println(missingNumber(arr));
     }
 
-    static int missingNumber(int arr[]) {
+    static int missingNumber(int[] arr) {
         int n = arr.length;
         int sum = 0;
         for (int i = 0; i < n; i++) {
