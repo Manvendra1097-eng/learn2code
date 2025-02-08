@@ -1,0 +1,8 @@
+package com.manvendra.binarysearch;
+
+// https://leetcode.com/problems/kth-missing-positive-number/
+public class KthMissingNumber {
+    public static void main(String[] args) {
+
+    }
+}
